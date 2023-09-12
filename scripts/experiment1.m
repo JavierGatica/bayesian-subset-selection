@@ -1,8 +1,9 @@
-means = 0.1:0.1:1;
-stdevs = (10:-1:1)*0.1;
-delta = 0.07;
 
-test_systems = [4, 6, 7, 8];
+means = (1:10) * 0.1;
+stdevs = (1:10) * 0.1;
+delta = 0.14;
+
+test_systems = sort([9, 10]);
 n = length(test_systems);
 
 test_derivatives = test_systems;
@@ -19,7 +20,9 @@ for m = 1:(10 - n)
             test_derivatives(end, i) = derivative(test_systems(i), subsets(l,:), means, stdevs, delta);
         end
     end
-    m
+    m 
 end
 
-
+for j = 1:(n-1)
+    disp(all(test_derivatives(:, j + 1) > test_derivatives(:, j)))
+end
