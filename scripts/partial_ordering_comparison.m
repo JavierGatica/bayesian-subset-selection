@@ -1,3 +1,4 @@
+add_rm_paths('add')
 
 means = (1:10) * 0.1;
 stdevs = (1:10) * 0.1;
