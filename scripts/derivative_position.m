@@ -1,4 +1,9 @@
+% this experiment aims to visualize the change in the relative order of the discrete
+% derivatives of all systems throughout the execution of the greedy heuristic
+
 k = 20;
+
+%this is a partially ordered set of systems
 means = (1:k) * delta / 2 + sort(rand(1,k));
 stdevs = sort(rand(1,k) + 0.1);
 
@@ -17,7 +22,9 @@ for step = 1:k
     subset = [subset Scomp(idx(end))];
 end
 
-    
+pcolor(derivative_order)
+xlabel("system index (initially sorted by their derivatives)")
+ylabel("step in the greedy heuristic")
 
 
 

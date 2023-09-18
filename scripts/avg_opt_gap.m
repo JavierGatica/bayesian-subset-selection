@@ -1,3 +1,7 @@
+% this experiment store the subset sizes of brute force and greedy
+% algorithms to compare them and analyze the optimality gap.
+
+
 add_rm_paths("add")
 M = 500;
 k = 10;

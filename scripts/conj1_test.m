@@ -1,3 +1,6 @@
+% this experiment checks if the greedy heuristic is optimal under partially ordered
+% systems. If this doesn't hold, then conjecture 1 is not true.
+
 add_rm_paths("add")
 k = 10;
 M = 200; % replications of the experiment
@@ -15,7 +18,7 @@ for m = 1:M
     [S_brute_force, ~] = brute_force(means, stdevs, delta, alpha, length(S_greedy) - 1)
     subset_size_diff(m) = length(S_greedy) - length(S_brute_force);
     if subset_size_diff(m) > 0
-        disp "Contradiction to conjecture 1 found"
+        disp "Contradiction to conjecture 1 found\n"
         break
     end
 end
