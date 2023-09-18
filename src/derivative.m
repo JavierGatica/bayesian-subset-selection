@@ -1,4 +1,6 @@
 function delta_i = derivative(i, S, means, stdevs, delta)
+    % there is a bottleneck in the precision of the integration
+    % probably due to the normcdf function
 
     k = length(means);
 
