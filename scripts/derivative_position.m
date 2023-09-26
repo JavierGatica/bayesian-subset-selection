@@ -25,8 +25,3 @@ end
 pcolor(derivative_order)
 xlabel("system index (initially sorted by their derivatives)")
 ylabel("step in the greedy heuristic")
-
-
-
-
-

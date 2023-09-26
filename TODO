@@ -1,0 +1,38 @@
+- find if there is an easy bijection between the pPGI expression and
+some function of (mu_i, rho_i, delta)
+
+- prove that if a subset is constructed with the greedy heuristic, then
+there's not a smaller subset S that meets the condition pPGI(S) > 1 - alpha
+
+- conjecture 1 would still play an interesting role here because it could
+save a big part of the computational effort in calculating the pPGI's. Find
+a way to use conjecture 1 in the optimal way. Idea:
+
+forming chains with all systems 
+
+chain A: -----
+
+chain B: ---
+
+chain C: --------
+
+chain D: --
+
+chain E: -
+
+
+we directly compute the pPGI of the first (best) element of every chain and add the
+best one to the list. A system can be on two or more chains at the same time, but
+it has to be eliminated from all of them when selected.
+
+Pending question: Is there an optimal way to form the chains? (a systems could be,
+for instance, the last element in a chain "A" in one setting and in other setting be
+a disconnected 1 element chain, but resulting in that chain "A" becomes much larger or
+something like that)
+
+
+TODO:
+
+- check if greedy is the best system of size K
+
+- investigate data structures 

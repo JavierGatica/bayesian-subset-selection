@@ -2,6 +2,7 @@
 % algorithms to compare them and analyze the optimality gap.
 
 
+
 add_rm_paths("add")
 M = 500;
 k = 10;
@@ -11,7 +12,7 @@ alpha = 0.1;
 subset_size_greedy = zeros(1,M); 
 subset_size_bf = zeros(1,M);
 
-for m = 28:M
+for m = 1:M
     m
     means = rand(1, k);
     stdevs = rand(1, k) + 0.01;
