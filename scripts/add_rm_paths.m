@@ -1,7 +1,7 @@
 function add_rm_paths(add_rm_flag)
 % from https://github.com/daveckman/plausible-screening/blob/master/scripts/add_rm_paths.m
 
-folders = strcat({'../'}, {'src'});
+folders = strcat({'../'}, {'src', 'data'});
 
 switch add_rm_flag
     case 'add'
