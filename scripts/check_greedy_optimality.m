@@ -1,4 +1,4 @@
-add_rm_paths("add")
+add_rm_paths('add')
 
 M = 100000; % number of replications
 k = 3; % number of systems
@@ -17,7 +17,7 @@ for m = 1:M
     for l = 1:size(subsets,1)
         pPGI = setPGI(subsets(l,:), means, stdevs, delta);
         if pPGI > pPGI_greedy
-            save("data/counterexample2.mat")
+            save("data/greedy_not_optimal.mat")
             disp('Greedy is not optimal')
             return
         end
