@@ -1,14 +1,14 @@
-\documentclass[a4paper, 12pt, border=10pt]{standalone}
+\documentclass[tikz, 12pt, border=10pt]{standalone}
 \usepackage{pgfplots,tikz,graphicx,xcolor}
 \usetikzlibrary{decorations.pathreplacing,calligraphy}
 \pgfplotsset{compat=newest}
 
 \definecolor{s1}{HTML}{dd0000}
-\definecolor{s2}{HTML}{0040ff}
-\definecolor{s3}{HTML}{0060ff}
-\definecolor{s4}{HTML}{0080ff}
-\definecolor{s5}{HTML}{009fff}
-\definecolor{s6}{HTML}{00bfff}
+\definecolor{s2}{HTML}{0030ff}
+\definecolor{s3}{HTML}{0070ff}
+\definecolor{s4}{HTML}{0090ff}
+\definecolor{s5}{HTML}{00b0ff}
+\definecolor{s6}{HTML}{00d0ff}
 
 \begin{document}
 \begin{tikzpicture}
@@ -31,7 +31,7 @@
     ymin=0,
     ymax=1,
     ]
-    \addplot[s1,ybar,bar width=.5, fill]coordinates {(1,0.01)};
+    %\addplot[s1,ybar,bar width=.5, fill]coordinates {(1,0.01)};
     \addplot[s2,ybar,bar width=.5, fill]coordinates{(2.5,0.5)};
     \addplot[s3,ybar,bar width=.5, fill]coordinates{(3.5,0.38)};
     \addplot[s4,ybar,bar width=.5, fill]coordinates{(4.5,0.26)};
@@ -66,12 +66,23 @@
         ymin=0,
         ymax=1,
         ]
-        \addplot[s1,ybar,bar width=.5, fill]coordinates {(1,0.5)};
-        \addplot[s2,ybar,bar width=.5, fill]coordinates{(2.5,0.6)};
-        \addplot[s3,ybar,bar width=.5, fill]coordinates{(3.5,0.7)};
-        \addplot[s4,ybar,bar width=.5, fill]coordinates{(4.5,0.8)};
-        \addplot[s5,ybar,bar width=.5, fill]coordinates{(5.5,0.8)};
-        \addplot[s6,ybar,bar width=.5, fill]coordinates{(6.5,0.8)};
+        \addplot[s2,ybar,bar width=.5, fill]coordinates {(1,0.5)};
+
+        \addplot[s2,ybar,bar width=.5, dashed, thick]coordinates{(2.5,0.5)};
+        
+        \addplot[s3,ybar,bar width=.49, dashed, thick]coordinates{(3.5,0.38)};
+        \addplot[s3,ybar,bar width=.5, fill]coordinates{(3.5,0.247)};
+    
+        \addplot[s4,ybar,bar width=.49, dashed, thick]coordinates{(4.5,0.26)};
+        \addplot[s4,ybar,bar width=.5, fill]coordinates{(4.5,0.169)};
+
+
+        \addplot[s5,ybar,bar width=.49, dashed, thick]coordinates{(5.5,0.14)};
+        \addplot[s5,ybar,bar width=.5, fill]coordinates{(5.5,0.091)};
+
+
+        \addplot[s6,ybar,bar width=.49, dashed, thick]coordinates{(6.5,0.05)};
+        \addplot[s6,ybar,bar width=.5, fill]coordinates{(6.5,0.03)};
         
         \addplot[dashed,red,thick] (0.3,0.9) -- (7,0.9);
         \node[anchor=center] at (1.04,1.06) {pPGI$(S)$};
@@ -102,12 +113,22 @@
         ymin=0,
         ymax=1,
         ]
-        \addplot[s1,ybar,bar width=.5, fill]coordinates {(1,0.5)};
-        \addplot[s2,ybar,bar width=.5, fill]coordinates{(2.5,0.6)};
-        \addplot[s3,ybar,bar width=.5, fill]coordinates{(3.5,0.7)};
-        \addplot[s4,ybar,bar width=.5, fill]coordinates{(4.5,0.8)};
-        \addplot[s5,ybar,bar width=.5, fill]coordinates{(5.5,0.8)};
-        \addplot[s6,ybar,bar width=.5, fill]coordinates{(6.5,0.8)};
+        \addplot[s3,ybar,bar width=.5, fill]coordinates {(1,0.82)};
+        \addplot[s2,ybar,bar width=.5, fill]coordinates {(1,0.5)};
+
+        \addplot[s3,ybar,bar width=.5, dashed, thick]coordinates{(3.5,0.247)};
+    
+        \addplot[s4,ybar,bar width=.49, dashed, thick]coordinates{(4.5,0.169)};
+        \addplot[s4,ybar,bar width=.5, fill]coordinates{(4.5,0.10985)};
+
+
+        \addplot[s5,ybar,bar width=.49, dashed, thick]coordinates{(5.5,0.091)};
+        \addplot[s5,ybar,bar width=.5, fill]coordinates{(5.5,0.05915)};
+
+
+        \addplot[s6,ybar,bar width=.49, dashed, thick]coordinates{(6.5,0.03)};
+        \addplot[s6,ybar,bar width=.5, fill]coordinates{(6.5,0.01)};
+
         \addplot[dashed,red,thick] (0.3,0.9) -- (7,0.9);
         \node[anchor=center] at (1.04,1.06) {pPGI$(S)$};
         \node[anchor=center] at (4.4, 1.06) {$\Delta(i|S)$};

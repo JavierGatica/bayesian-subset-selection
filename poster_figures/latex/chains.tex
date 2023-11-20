@@ -1,15 +1,15 @@
 \documentclass[tikz,border=2mm]{standalone}
-\usepackage{pgfplots}
+\usepackage{pgfplots,xcolor}
+\usetikzlibrary{decorations.pathreplacing,calligraphy}
 \begin{document}
 \begin{tikzpicture}
 
 \begin{axis}[
     axis lines = center,
-    axis line style = {->},
     xlabel = $\mu$,
     ylabel = {$\rho$},
-    xmin=-1, xmax=20,
-    ymin=0, ymax=20,
+    xmin=0, xmax=20,
+    ymin=0, ymax=22,
     xtick=\empty, ytick=\empty,
     clip=false
 ]
@@ -19,17 +19,15 @@
     12.3 20
 
     3.6 9
-    7.2 15
-    12 16.2
-    15.3 16.4
+    8.3 15
+    11 15.3
     18 18
 
-    4.5 4
     10 8.2
-    12.3 12.3
+    11.3 12.3
 
-    10 4
-    13.6 8
+    10 4.5
+    14.3 7
     17 8.8
     20 12.5
 
@@ -38,29 +36,55 @@
 \addplot [only marks, red] table {
      12.3 20
      18 18
-     12.3 12.3
      20 12.5
      18 4
 };
 
-\draw[->, semithick] (0,0) -- (-1,0);
+\addplot[only marks, mark=o, thick] table {
+    10.3 20
+    16 18
+    18 12.5
+    16 4
+};
 
-\draw[dashed, color=gray, very thick] (axis cs:3.8,17) -- (axis cs:8,19.7);
-\draw[dashed, color=gray, very thick] (axis cs:12.3,20) -- (axis cs:8,19.7);
+\draw[color=gray, very thick, densely dotted] (axis cs:12.3,20) -- (axis cs:10.3,20);
+\draw[color=gray, very thick, densely dotted] (axis cs:18,18) -- (axis cs:16,18);
+\draw[color=gray, very thick, densely dotted] (axis cs:20,12.5) -- (axis cs:18,12.5);
+\draw[color=gray, very thick, densely dotted] (axis cs:18,4) -- (axis cs:16,4);
 
-\draw[dashed, color=gray, very thick] (axis cs:3.6,9) -- (axis cs:7.2,15);
-\draw[dashed, color=gray, very thick] (axis cs:7.2,15) -- (axis cs:12,16.2);
-\draw[dashed, color=gray, very thick] (axis cs:12,16.2) -- (axis cs:15.3,16.4);
-\draw[dashed, color=gray, very thick] (axis cs:15.3,16.4) -- (axis cs:18,18);
+\begin{scope}[decoration={calligraphic brace, amplitude=6pt, mirror}]
+    \draw[color=gray, decorate] (axis cs:12.3,20.5) -- (axis cs:10.3,20.5);
+    \draw[color=gray, decorate] (axis cs:18,18.5) -- (axis cs:16,18.5);
+    \draw[color=gray, decorate] (axis cs:20,13) -- (axis cs:18,13);
+    \draw[color=gray, decorate] (axis cs:18,4.5) -- (axis cs:16,4.5);
+\end{scope}
 
-\draw[dashed, color=gray, very thick] (axis cs:4.5,4) -- (axis cs:10,8.2);
-\draw[dashed, color=gray, very thick] (axis cs:10,8.2) -- (axis cs:12.3,12.3);
+\draw[color=blue, thick, dashed] (axis cs:8,19.7) -- (axis cs:10.3,20);
+\draw[color=blue, thick, dashed] (axis cs:3.8,17) -- (axis cs:10.3,20);
+\draw[color=blue, thick, dashed] (axis cs:3.6,9) -- (axis cs:10.3,20);
+\draw[color=blue, thick, dashed] (axis cs:8.3,15) -- (axis cs:10.3,20);
 
-\draw[dashed, color=gray, very thick] (axis cs:10,4) -- (axis cs:13.6,8);
-\draw[dashed, color=gray, very thick] (axis cs:13.6,8) -- (axis cs:17,8.8);
-\draw[dashed, color=gray, very thick] (axis cs:17,8.8) -- (axis cs:20,12.5);
+\draw[color=orange, thick, dashed] (axis cs:3.8,17) -- (axis cs:16,18);
+\draw[color=orange, thick, dashed] (axis cs:3.6,9) -- (axis cs:16,18);
+\draw[color=orange, thick, dashed] (axis cs:8.3,15) -- (axis cs:16,18);
+\draw[color=orange, thick, dashed] (axis cs:11,15.3) -- (axis cs:16,18);
+\draw[color=orange, thick, dashed] (axis cs:10,8.2) -- (axis cs:16,18);
+\draw[color=orange, thick, dashed] (axis cs:11.3,12.3) -- (axis cs:16,18);
+\draw[color=orange, thick, dashed] (axis cs:10,4.5) -- (axis cs:16,18);
+\draw[color=orange, thick, dashed] (axis cs:14.3,7) -- (axis cs:16,18);
+
+\draw[color=teal, thick, dashed] (axis cs:3.6,9) -- (axis cs:18,12.5);
+\draw[color=teal, thick, dashed] (axis cs:10,8.2) -- (axis cs:18,12.5);
+\draw[color=teal, thick, dashed] (axis cs:11.3,12.3) -- (axis cs:18,12.5);
+\draw[color=teal, thick, dashed] (axis cs:10,4.5) -- (axis cs:18,12.5);
+\draw[color=teal, thick, dashed] (axis cs:14.3,7) -- (axis cs:18,12.5);
+\draw[color=teal, thick, dashed] (axis cs:17,8.8) -- (axis cs:18,12.5);
 
 
+\node at (113,220) {$\delta/2$};
+\node at (170,200) {$\delta/2$};
+\node at (190,145) {$\delta/2$};
+\node at (170,60) {$\delta/2$};
 
 \end{axis}
 \end{tikzpicture}

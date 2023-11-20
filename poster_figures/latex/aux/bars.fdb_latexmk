@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1700428987 "/home/javier/projects/bayesian-subset-selection/poster_figures/latex/bars.tex" "aux/bars.pdf" "bars" 1700428988
-  "/dev/null" 1700414590 0 d41d8cd98f00b204e9800998ecf8427e ""
+["pdflatex"] 1700445033 "/home/javier/projects/bayesian-subset-selection/poster_figures/latex/bars.tex" "aux/bars.pdf" "bars" 1700445033
+  "/dev/null" 1700443641 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/etc/texmf/web2c/texmf.cnf" 1682868095 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/javier/projects/bayesian-subset-selection/poster_figures/latex/bars.tex" 1700428987 4280 c144ccea73139541cf02ade3514f4aa4 ""
+  "/home/javier/projects/bayesian-subset-selection/poster_figures/latex/bars.tex" 1700445033 4899 3ce2171a24d516d849a22c8146cb1029 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
@@ -153,8 +153,8 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1694363788 4036811 4cb80868003c86b962b6b5ae1e1e2902 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1694364182 1427311 556bac9e2c2bf21795b8ec5b0f57863c ""
-  "aux/bars.aux" 1700428988 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "bars.tex" 1700428987 4280 c144ccea73139541cf02ade3514f4aa4 ""
+  "aux/bars.aux" 1700445033 32 ab05033ccbb38b00a31b200ccedf8001 "pdflatex"
+  "bars.tex" 1700445033 4899 3ce2171a24d516d849a22c8146cb1029 ""
   (generated)
   "aux/bars.aux"
   "aux/bars.log"

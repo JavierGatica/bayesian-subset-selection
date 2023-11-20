@@ -1,9 +1,10 @@
 # Fdb version 3
-["pdflatex"] 1700065565 "/home/javier/projects/bayesian-subset-selection/poster_figures/latex/chains.tex" "aux/chains.pdf" "chains" 1700065565
-  "/dev/null" 1700023608 0 d41d8cd98f00b204e9800998ecf8427e ""
+["pdflatex"] 1700448748 "/home/javier/projects/bayesian-subset-selection/poster_figures/latex/chains.tex" "aux/chains.pdf" "chains" 1700448748
+  "/dev/null" 1700443641 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/etc/texmf/web2c/texmf.cnf" 1682868095 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/javier/projects/bayesian-subset-selection/poster_figures/latex/chains.tex" 1700065564 1557 5b02700ba99699365a4197cb57cf7db9 ""
+  "/home/javier/projects/bayesian-subset-selection/poster_figures/latex/chains.tex" 1700448748 2895 fa0c5e1ad1edb256db78faf62f1897e9 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty" 1572645307 492 1994775aa15b0d1289725a0b1bbc2d4c ""
   "/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty" 1583617216 6501 4011d89d9621e0b0901138815ba5ff29 ""
@@ -115,6 +116,8 @@
   "/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty" 1622581934 2671 4de6781a30211fe0ea4c672e4a2a8166 ""
   "/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty" 1636758526 4009 187ea2dc3194cd5a76cd99a8d7a6c4d0 ""
   "/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def" 1642022539 29921 f0f4f870357ebfb8fe58ed9ed4ee9b92 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty" 1642805374 6107 429b3b241150e53f86ce666eb492861e ""
+  "/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty" 1642022539 6758 7d9d899cbbfc962fbc4bb93f4c69eec2 ""
   "/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg" 1279039959 678 4792914a8f45be57bb98413425e4c7af ""
   "/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty" 1601326656 1090 bae35ef70b3168089ef166db3e66f5b2 ""
   "/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty" 1601326656 410 615550c46f918fcbee37641b02a862d9 ""
@@ -127,6 +130,8 @@
   "/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty" 1601326656 274 5ae372b7df79135d240456a1c6f2cf9a ""
   "/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty" 1601326656 325 f9f16d12354225b7dd52a3321f085955 ""
   "/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty" 1496704190 4904 ee78b44e85d6fccf08cd99370557481e ""
+  "/usr/share/texlive/texmf-dist/tex/latex/spath3/spath3.sty" 1614030731 116980 67d2c034d21a2c8ce3fbd949385dc90c ""
+  "/usr/share/texlive/texmf-dist/tex/latex/spath3/tikzlibrarycalligraphy.code.tex" 1612650578 25739 a271bcc9dbed329362bac036a5dff5ab ""
   "/usr/share/texlive/texmf-dist/tex/latex/standalone/standalone.cfg" 1522098998 1015 662b4d7ad816b857a598284525f5c75e ""
   "/usr/share/texlive/texmf-dist/tex/latex/standalone/standalone.cls" 1522098998 28890 df75e6d37f47b7e27bff3f37375336b3 ""
   "/usr/share/texlive/texmf-dist/tex/latex/tools/shellesc.sty" 1622581934 4118 0f286eca74ee36b7743ff20320e5479f ""
@@ -137,8 +142,8 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1694363788 4036811 4cb80868003c86b962b6b5ae1e1e2902 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1694364182 1427311 556bac9e2c2bf21795b8ec5b0f57863c ""
-  "aux/chains.aux" 1700065565 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "chains.tex" 1700065564 1557 5b02700ba99699365a4197cb57cf7db9 ""
+  "aux/chains.aux" 1700448748 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "chains.tex" 1700448748 2895 fa0c5e1ad1edb256db78faf62f1897e9 ""
   (generated)
   "aux/chains.aux"
   "aux/chains.log"
