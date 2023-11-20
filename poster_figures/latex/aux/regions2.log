@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.9.10)  19 NOV 2023 23:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.9.10)  20 NOV 2023 00:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -308,39 +308,74 @@ Package caption Info: Standard document class detected.
 )
 \c@caption@flags=\count290
 \c@continuedfloat=\count291
-) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+) (/usr/share/texlive/texmf-dist/tex/latex/spath3/tikzlibrarycalligraphy.code.tex (/usr/share/texlive/texmf-dist/tex/latex/spath3/spath3.sty (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2022-01-21 L3 programming layer (loader) 
+ (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count292
 \l__pdf_internal_box=\box63
-) (aux/regions2.aux)
+))
+Package: spath3 2021/02/21 v2.4 Functions for manipulating PGF soft paths
+ (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2022-01-12 L3 Experimental document command parser
+)
+\g__spath_output_int=\count293
+\l__spath_tmpa_dim=\dimen268
+\l__spath_tmpb_dim=\dimen269
+\l__spath_tmpa_int=\count294
+\l__spath_tmpb_int=\count295
+\l__spath_move_x_dim=\dimen270
+\l__spath_move_y_dim=\dimen271
+\g__spath_anon_int=\count296
+)
+\l__cal_tmpa_int=\count297
+\l__cal_tmpb_int=\count298
+\g__cal_path_component_int=\count299
+\g__cal_label_int=\count300
+\l__cal_tmpa_dim=\dimen272
+\l__cal_tmpb_dim=\dimen273
+\l__cal_tmpc_dim=\dimen274
+\l__cal_tmpd_dim=\dimen275
+\l__cal_tmpe_dim=\dimen276
+\l__cal_tmpf_dim=\dimen277
+\l__cal_tmpg_dim=\dimen278
+\l__cal_tmph_dim=\dimen279
+\l__cal_taper_width_dim=\dimen280
+\l__cal_line_width_dim=\dimen281
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
+File: pgflibraryfadings.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)) (aux/regions2.aux)
 \openout1 = `regions2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count293
-\scratchdimen=\dimen268
+\scratchcounter=\count301
+\scratchdimen=\dimen282
 \scratchbox=\box64
-\nofMPsegments=\count294
-\nofMParguments=\count295
+\nofMPsegments=\count302
+\nofMParguments=\count303
 \everyMPshowfont=\toks34
-\MPscratchCnt=\count296
-\MPscratchDim=\dimen269
-\MPnumerator=\count297
-\makeMPintoPDFobject=\count298
+\MPscratchCnt=\count304
+\MPscratchDim=\dimen283
+\MPnumerator=\count305
+\makeMPintoPDFobject=\count306
 \everyMPtoPDFconversion=\toks35
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -350,30 +385,30 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
- on input line 3.
+ on input line 6.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 5.
+(Font)              <7> on input line 8.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 5.
+(Font)              <5> on input line 8.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (aux/regions2.aux) ) 
 Here is how much of TeX's memory you used:
- 23559 strings out of 480185
- 620931 string characters out of 5894213
- 1009874 words of memory out of 5000000
- 41176 multiletter control sequences out of 15000+600000
+ 24699 strings out of 480185
+ 648941 string characters out of 5894213
+ 1010887 words of memory out of 5000000
+ 42297 multiletter control sequences out of 15000+600000
  469259 words of font info for 28 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
- 115i,7n,118p,789b,623s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 115i,7n,118p,827b,632s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-Output written on aux/regions2.pdf (2 pages, 27319 bytes).
+Output written on aux/regions2.pdf (2 pages, 30128 bytes).
 PDF statistics:
- 29 PDF objects out of 1000 (max. 8388607)
- 18 compressed objects within 1 object stream
+ 56 PDF objects out of 1000 (max. 8388607)
+ 28 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 115 words of extra memory for PDF output out of 10000 (max. 10000000)
 
